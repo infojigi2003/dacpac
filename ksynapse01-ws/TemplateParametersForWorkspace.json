@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "ksynapse01-ws"
+		},
+		"Defultdlsin1012_accountKey": {
+			"value": ""
+		},
+		"ksynapse01-ws-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"Defultdlsin1012_properties_typeProperties_url": {
+			"value": "https://ksynapse01dls.dfs.core.windows.net"
+		},
+		"ksynapse01-ws-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://ksynapse01dls.dfs.core.windows.net"
+		}
+	}
+}
